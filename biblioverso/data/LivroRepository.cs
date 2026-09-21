@@ -6,9 +6,12 @@ namespace biblioverso.Data
         private static int proximoId = 1; // variavel auxiliar 
 
         public void Adicionar (Livro livro ) //método adicina livros na lista 
-    }
-       livro.Id = proximoId;++; 
-       _tabelaLivros.Add(livro);
-    
-}
+        }
+            livro.Id = proximoId;++; 
+            _tabelaLivros.Add(livro);
+        }
 
+        public List<Livro>obterTodos()
+        {
+            return_tabelaLivros;
+        }
